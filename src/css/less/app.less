@@ -1,0 +1,137 @@
+.home{
+    padding-bottom:50px;
+}
+.headerbar{
+    margin:3px;
+    border:3px solid #595959;
+    border-right:none;
+    display:inline-block;
+    min-width:629px;
+    div{
+        display:inline-block;
+        min-width:150px;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        line-height: 30px;
+        padding: 0 30px;
+    }
+    .anticon{
+        font-size: 48px;
+        position: absolute;
+        right: -40px;
+        top: -9px;
+    }
+}
+.headerbanner{
+    background:url(../../../img/1.jpg);
+    background-size: 100% 100%;
+    height:300px;
+    margin-bottom:20px;
+    &>div{
+        width:40%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left:10px;
+        font-weight: bold;
+        p:first-child{
+            font-size:25px;
+        }
+    }
+}
+.middleContentLeft{
+    padding:10px;
+}
+.middleContentRight{
+    padding:10px;
+    &>div{
+        line-height:40px;
+        button{
+            border-radius: 3px;
+            border: 1px solid #595959;
+            width:100%;
+        }
+    }
+    &>div:last-child{
+        margin-top:10px;
+    }
+}
+.bottomLeftTitle{
+    margin-top:50px;
+    padding-left:10px;
+}
+.bottomLeft{
+    // margin-top:50px;
+    padding-left:10px;
+    padding-right: 10px;
+    &>div{
+        border:2px solid #595959;
+        margin-top:20px;
+        ul{
+            li{
+                padding:5px;
+                cursor:pointer;
+                border-bottom:2px solid transparent;
+                border-top:2px solid transparent;
+                position: relative;
+                &:hover{
+                    background:#eee;
+                }
+                &.active{
+                    background:#E6E6E6;
+                    border-color:#595959;
+                }
+                &:first-child{
+                    border-top:none;
+                }
+                &:last-child{
+                    border-bottom:none;
+                }
+                img{
+                    position: absolute;
+                    right: -17px;
+                    top: -1px;
+                    font-size: 44px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+    .ant-select-selection{
+        border-radius: unset;
+        border:unset;
+    }
+}
+.bottomRight{
+    margin-top:20px;
+    padding-left:10px;
+    .bottomRightTitle{
+        img{
+            height: 60px;
+            margin-right:20px;
+        }
+        &>div{
+            display: inline-block;
+        }
+    }
+    .bottomRightContent{
+        margin-top:20px;
+    }
+    .roomNumInfo{
+        line-height:30px;
+    }
+    .checkbox{
+        margin-top:20px;
+        h1{
+            margin-bottom:10px;
+        }
+        .checkboxList{
+            .ant-row{
+                &>div>div{
+                    line-height:40px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "deluxe": {
+        "friends": [
+            "Bob Smith",
+            "Jane Doe",
+            "Bubba Hyde",
+            "Betsy Toheavens"
+        ]
+    },
+    "shared": {
+        "friends": [
+            "Bob Smith"
+        ]
+    },
+    "animal-friendly": {
+        "friends": [
+            "Bob Smith",
+            "Jane Doe",
+            "Bubba Hyde"
+        ]
+    },
+    "another": {
+        "friends": [
+            "Bob Smith",
+            "Jane Doe"
+        ]
+    },
+    "and-another": {
+        "friends": []
+    }
+}
