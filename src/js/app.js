@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router';
 import { Row, Col, Icon, Checkbox, Select } from 'antd';
-import $ from 'jquery';
 
 class App extends Component{
 // })
