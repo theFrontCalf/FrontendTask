@@ -16,6 +16,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "classlist-polyfill": "^1.0.3",
     "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.9.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
@@ -39,7 +40,7 @@
   "scripts": {
     "dev": "webpack-dev-server --port 8181 --devtool eval --progress --colors --inline --hot  --config ./webpack.dev.config.js --progress",
     "build": "webpack --config ./webpack.production.config.js --progress",
-    "devt":"webpack --config ./webpack.dev.config.js --progress"
+    "devt": "webpack --config ./webpack.dev.config.js --progress"
   },
   "author": "Shao A Nan",
   "dependencies": {
